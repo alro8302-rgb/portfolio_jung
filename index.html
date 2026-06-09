@@ -1,11 +1,172 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- 파비콘 -->
+        <!-- <link rel="icon" href=""> -->
+        <title>연습 포트폴리오</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+        <!-- AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="js/main.js" defer></script>
+    </head>
+    <body>
+        <!-- header -->
+        <header>
+            <h1 class="logo">VIDEO</h1>
+            <ul class="gnb">
+                <li><a href="#visual">HOME</a></li>
+                <li><a href="#work">WORK</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#skill">SKILL</a></li>
+            </ul>
+            <!-- 햄버거바 -->
+            <div class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+        <!-- 모바일 메뉴 -->
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="#visual">HOME</a></li>
+                <li><a href="#work">WORK</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#skill">SKILL</a></li>
+            </ul>
+        </div>
+        <!-- 비주얼 -->
+        <figure>
+            <!-- 비디오 -->
+            <video autoplay muted loop>
+                <source src="images/0_Geometric_Shapes_Abstract_Art_3840x2160.mp4" type="video/mp4" />
+            </video>
+            <!-- 비디오 내용 -->
+            <div class="video-txt inner">
+                <h2>DESIGN</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident voluptatibus error culpa?</p>
+                <a href="#">view detail</a>
+            </div>
+        </figure>
+        <!-- about -->
+        <section class="about" id="about">
+            <h2 class="title">ABOUT</h2>
+            <div class="about-wrap">
+                <img
+                    src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=1200&auto=format&fit=crop"
+                    alt=""
+                />
+
+                <div class="about-text">
+                    <h3>Creative Video Designer</h3>
+                    <p>
+                        다양한 영상 콘텐츠를 기획하고 편집하는 영상 디자이너입니다. 감각적인 영상 연출과 트렌디한 모션
+                        디자인을 통해 브랜드와 사람을 연결하는 콘텐츠를 제작합니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- work -->
+        <section class="work" id="work">
+            <h2 class="title">작품 소개</h2>
+            <div class="work-list">
+                <div class="work-item" data-aos="flip-up">
+                    <img
+                        src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=1200&auto=format&fit=crop"
+                        alt="img"
+                    />
+                    <div class="work-text">
+                        <h3>광고 영상</h3>
+                        <p>브랜드 감성을 담은 광고 영상 프로젝트</p>
+                    </div>
+                </div>
+
+                <div class="work-item" data-aos="flip-up">
+                    <img
+                        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop"
+                        alt="img"
+                    />
+                    <div class="work-text">
+                        <h3>뮤직비디오</h3>
+                        <p>음악 분위기를 강조한 영상 편집 작업</p>
+                    </div>
+                </div>
+
+                <div class="work-item" data-aos="flip-up">
+                    <img
+                        src="https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=1200&auto=format&fit=crop"
+                        alt="img"
+                    />
+                    <div class="work-text">
+                        <h3>시네마틱 영상</h3>
+                        <p>영화 같은 감성의 촬영 및 편집 포트폴리오</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section class="contact" id="contact">
+            <h2 class="title">CONTACT</h2>
+            <div class="contact-link">
+                <a
+                    href="https://github.com/alro8302-rgb?tab=repositories"
+                    title="깃허브로 이동"
+                    target="_blank"
+                    data-aos="fade-up"
+                >
+                    <i class="fa-brands fa-github"></i>
+                    GITHUB
+                </a>
+                <a href="assets/1.pdf" download title="이력서 다운로드" data-aos="fade-up">
+                    <i class="fa-solid fa-file"></i>
+                    RESUME
+                </a>
+                <a href="#" target="_blank" title="유튜브로 이동" data-aos="fade-up">
+                    <i class="fa-brands fa-youtube"></i>
+                    YOUTUBE
+                </a>
+                <a href="#" target="_blank" title="인스타그램으로 이동" data-aos="fade-up">
+                    <i class="fa-brands fa-instagram"></i>
+                    INSTAGRAM
+                </a>
+            </div>
+        </section>
+        <!-- skill -->
+        <section class="skill" id="skill">
+            <h2 class="title">SKILL</h2>
+            <div class="skill-list">
+                <div class="skill-item" data-aos="fade-up">
+                    <i class="fa-solid fa-video"></i>
+                    <h3>Premiere Pro</h3>
+                    <p>영상 편집 및 컷 편집</p>
+                </div>
+                <div class="skill-item" data-aos="fade-up">
+                    <i class="fa-solid fa-film"></i>
+                    <h3>After Effects</h3>
+                    <p>모션 그래픽 및 효과 제작</p>
+                </div>
+                <div class="skill-item" data-aos="fade-up">
+                    <i class="fa-solid fa-image"></i>
+                    <h3>Photoshop</h3>
+                    <p>썸네일 및 이미지 보정</p>
+                </div>
+                <div class="skill-item" data-aos="fade-up">
+                    <i class="fa-solid fa-pen-ruler"></i>
+                    <h3>Illustrator</h3>
+                    <p>그래픽 디자인 작업</p>
+                </div>
+            </div>
+        </section>
+        <!-- aos init -->
+        <script>
+            AOS.init();
+        </script>
+    </body>
 </html>
