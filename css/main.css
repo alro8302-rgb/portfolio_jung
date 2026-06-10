@@ -7,7 +7,7 @@ ul,
 li {
     list-style: none;
 }
-a {
+a {햣
     color: #333;
     text-decoration: none;
 }
@@ -166,7 +166,7 @@ header {
     margin-bottom: 20px;
 }
 .visual p {
-    font-size: 24px;
+    font-size: 22px;
     color: #ddd;
 }
 /* 작품 */
@@ -267,7 +267,7 @@ header {
 }
 .about-text p {
     line-height: 1.8;
-    font-size: 21px;
+    font-size: 20px;
     color: #b7b7b7;
 }
 /* skill */
