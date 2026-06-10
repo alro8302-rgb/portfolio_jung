@@ -166,7 +166,7 @@ header {
     margin-bottom: 20px;
 }
 .visual p {
-    font-size: 22px;
+    font-size: 20px;
     color: #ddd;
 }
 /* 작품 */
@@ -262,12 +262,12 @@ header {
     border-radius: 20px;
 }
 .about-text h3 {
-    font-size: 44px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 .about-text p {
     line-height: 1.8;
-    font-size: 20px;
+    font-size: 18px;
     color: #b7b7b7;
 }
 /* skill */
